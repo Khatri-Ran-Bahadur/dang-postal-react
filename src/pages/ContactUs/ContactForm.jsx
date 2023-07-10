@@ -198,17 +198,13 @@ const ContactForm = () => {
               <br />
               <br />
               {success ? (
-                <p>
-                  <span className="alert alert-success" role="alert">
-                    Message Successfully Sent. Thank You.
-                  </span>
+                <p className="alert alert-success" role="alert">
+                  Message Successfully Sent. Thank You.
                 </p>
               ) : null}
               {error ? (
-                <p>
-                  <span className="alert alert-danger" role="alert">
-                    Sorry, Something went wrong!
-                  </span>
+                <p className="alert alert-danger" role="alert">
+                  Sorry, Something went wrong!
                 </p>
               ) : null}
             </Form>

@@ -46,7 +46,7 @@ import ErrorBoundary from "./components/Error/ErrorBoundary";
 
 const history = createBrowserHistory();
 const App = () => {
-  const [engLang, setEngLang] = useState(true);
+  const [engLang, setEngLang] = useState(false);
   const [toggleEye, setToggleEye] = useState(false);
   useEffect(() => {
     toggleEye

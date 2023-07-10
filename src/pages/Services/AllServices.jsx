@@ -56,7 +56,7 @@ const AllServices = (props) => {
               <Card.Title>
                 {engLang ? service.title_english : service.title_nepali}
               </Card.Title>
-              <Card.Text>
+              <div>
                 <Content
                   dangerouslySetInnerHTML={{
                     __html: `${
@@ -66,7 +66,7 @@ const AllServices = (props) => {
                     }`,
                   }}
                 />
-              </Card.Text>
+              </div>
               <div>
                 <Button
                   className="primary"

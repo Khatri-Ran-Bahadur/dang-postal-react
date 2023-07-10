@@ -53,7 +53,7 @@ const ContactUs = ({ engLang }) => {
                     : "जिल्ला हुलाक कार्यालय दाङ"}
                 </Card.Title>
                 <Card.Text>{contactus.address}</Card.Text>
-                <Card.Text>
+                <div>
                   <div className="details">
                     <MdPhone size="18px" />
                     <span>
@@ -85,7 +85,7 @@ const ContactUs = ({ engLang }) => {
                       {contactus.notice_board}
                     </span>
                   </div>
-                </Card.Text>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -137,7 +137,7 @@ const ContactUs = ({ engLang }) => {
 
       {content()}
       <Row>
-        <Card className="map-card" style={{ width: "100%",margin:"5px" }}>
+        <Card className="map-card" style={{ width: "100%", margin: "5px" }}>
           <div>
             <GoogleMap />
           </div>
